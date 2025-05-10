@@ -26,6 +26,6 @@
     "lint-staged": "^15.5.2"
   },
   "lint-staged": {
-    "*": "npm lint"
+    "*": "npm run lint"
   }
 }
