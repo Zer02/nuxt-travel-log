@@ -6,7 +6,7 @@ A full stack application built with Nuxt that allows users to keep track of all 
 
 Make sure to install dependencies:
 
-```bash
+````bash
 # npm
 npm install
 
@@ -31,3 +31,4 @@ Locally preview production build:
 ```bash
 # npm
 npm run preview
+````
