@@ -32,3 +32,17 @@ Locally preview production build:
 # npm
 npm run preview
 ````
+
+### WSL Commands (Won't work on bash)
+
+<!-- start up local db -->
+
+turso dev --db-file local.db
+
+<!-- create tables on db -->
+
+npx drizzle-kit migrate
+
+<!-- test -->
+
+npx drizzle-kit studio
